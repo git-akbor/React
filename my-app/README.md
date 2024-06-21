@@ -60,12 +60,12 @@ export default "componentNameHere";`</br>
 We can check the props like:</br>
 `console.logprops();`</br>
 We can **Destucture** the multiple value to a single value like:</br>
-`import React from "react";`
-`function "componentNameHere"(props){
-const {cardTitle, cardDesc}= props;</br>
-return(
-   <div> <h1 className="cardTitle">{"titleText"}</h1></div>       
-   )}`</br>
+`import React from "react";`</br>
+`function "componentNameHere"(props){`</br>
+`const {cardTitle, cardDesc}= props;`</br>
+`return(` </br>
+   `<div> <h1 className="cardTitle">{cardTitle, cardDesc}</h1></div>`   </br>    
+   `)}`</br>
    `export default "componentNameHere";`</br>
   We can de-stucture an array like:</br>
   ` const petName= ["dog","cat", "cow"];
